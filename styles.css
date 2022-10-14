@@ -1,14 +1,49 @@
+@font-face {
+  font-family: StarWars;
+  src: url("fonts/Death\ Star.otf");
+}
+
 body{
-  color: white;
-  background-image: url("img/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg");
+  margin: 0px;
+  font-family: 'Orbitron', sans-serif;
+  color: #1B69A8;
+  text-align: center;
+  letter-spacing: 2px;
+}
+
+.hero-section{
+  background-image: url("https://media.giphy.com/media/iicDrNGWxHmDrIni6j/giphy.gif");
   background-size: cover;
-  background-repeat: no-repeat;
+  background-position: center;
+  padding: 10px 0px 40px;
+}
+#logo-img{
+  width: 150px;
 }
 
 .titel{
-  text-align: center;
+  text-shadow: 5px 2px 5px black;
+}
+.titel-span{
+  padding-bottom: 3px;
+  border-bottom: solid 4px white;
 }
 
 .apply-btn{
-  justify-content: space-around;
+  font-family: inherit;
+  color: inherit;
+  border: none;
+  padding: 6px 12px;
+  background-color: white;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 20px;
 }
+
+.apply-btn:active{
+  color: #666;
+  box-shadow: inset 4px 4px 12px #c5c5c5,
+  inset -4px -4px 12px #ffffff;
+}
+
+
