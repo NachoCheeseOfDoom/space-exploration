@@ -1,0 +1,14 @@
+body{
+  color: white;
+  background-image: url("img/guillermo-ferla-Oze6U2m1oYU-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.titel{
+  text-align: center;
+}
+
+.apply-btn{
+  align-self: center;
+}
